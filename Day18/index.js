@@ -1,27 +1,27 @@
-// const willYouPassedInExam = new Promise ((resolve,reject)=>{
-//     resolve();
-//     reject();
-// })
+const willYouPassedInExam = new Promise ((resolve,reject)=>{
+    resolve();
+    reject();
+})
 
-// console.log(willYouPassedInExam)
+console.log(willYouPassedInExam)
 
-// function Mydetails(){
-//     return new Promise((res,rej)=>{
-//         if(Math.random() > 0.5){
-//             res("Promise successful");
-//         }else{
-//             rej("Promise failed");
-//         }
-//     })
-// }
+function Mydetails(){
+    return new Promise((res,rej)=>{
+        if(Math.random() > 0.5){
+            res("Promise successful");
+        }else{
+            rej("Promise failed");
+        }
+    })
+}
 
-// Mydetails().then((data)=>{
-//    console.log(data)
-// }).catch((error)=>{
-//    console.log(error)
-// })
+Mydetails().then((data)=>{
+   console.log(data)
+}).catch((error)=>{
+   console.log(error)
+})
 
-// console.log(Mydetails())
+console.log(Mydetails())
 
 
 function fetchCountry(url){
