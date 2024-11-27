@@ -35,7 +35,6 @@ function fetchCountry(url){
   
     })
 }
-
 fetchCountry('www.myapi.com').then((data)=>{
     data.forEach((country) => {     //FOR ARRAY LOOP ALL VALUES
         const countryData = document.createElement("div");
