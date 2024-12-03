@@ -14,3 +14,14 @@ function playDice() {
 }
 
 playDice();
+
+
+const numbers = [1, 2, 3, 4];
+const squared = numbers.map((num) => {
+    return num * num
+});
+
+
+
+console.log(numbers)
+console.log(squared)

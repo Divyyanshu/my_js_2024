@@ -48,4 +48,4 @@ var greet2 = function(){
 }
 
 
-console.log(greet(),greet1(),greet2())
+// console.log(greet(),greet1(),greet2())
