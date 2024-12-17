@@ -16,7 +16,7 @@ const train2 = {
 train2.book("Divyasnhu Tailor", 687286, "jaipur-mumbai")
 
 
-// this object using this.binding fu ction ,methods
+// this object using this.binding fuction ,methods
 
 function printName() {
     console.log(this.firstName)
